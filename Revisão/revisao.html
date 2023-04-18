@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Meu site </h1>
+        <ul>
+            <li> Home </li>
+            <li> Sobre</li>
+            <li> Contato</li>
+        </ul>
+    </header>
+    <section>
+        
+        <h2> Bem-vindo ao meu site</h2>
+        <p> Este é um exemplo básico de um site HTML</p>
+        <img src="https:via.placeholder.com/200x100"> 
+        <br><br>
+         <audio src="audio.mp3" controls></audio>
+    </section>
+
+    <section>
+        <h2> Produtos</h2>
+        <p> Esta é a seção de produtos</p>
+
+        <table style="border: 1px solid black; width: 100%; border-collapse: collapse;"> 
+            <tr> 
+                <th style="border: 1px solid black"> Produto </th>
+                <th style="border: 1px solid black">  Preço </th>
+                <th style="border: 1px solid black"> Quantidade</th>
+                <th style="border: 1px solid black"> Total </th>
+         </tr>
+         <tr>
+             <td style="border: 1px black solid"> Camiseta </td>
+             <td style="border: 1px black solid"> R$29,99</td>
+             <td style="border: 1px black solid"> 3</td>
+             <td style="border: 1px black solid"> R$89,97</td>
+         </tr>
+         <tr>
+            <td style="border: 1px black solid"> Calça </td>
+            <td style="border: 1px black solid"> R$59,99</td>
+            <td style="border: 1px black solid"> 1</td>
+            <td style="border: 1px black solid"> R$59,99</td>
+        </tr>
+        <tr> 
+            <td colspan="3" style="border:1px solid black; text-align: right;"> Total</td>
+            <td style="border:1px solid black; text-align: right;"> R$149,96</td>
+
+        </tr>
+        </table>
+
+        <br>
+        <form action="">
+            <fieldset>
+                <legend> Contato</legend>
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome" name="nome"/>
+                <br> <br>
+                
+                <label for="nome"> Email: </label>
+                <input type="text" id="email" name="email"/>
+                <br> <br>
+                <legend> Mensagem:</legend>
+                <textarea id="descricao" nome="descricao" rows="3" cols="30"></textarea>
+                <br><br>
+
+                <label for="termos"> Aceito os termos </label>
+                <input type="checkbox"/>
+                <br><br>
+                <button type="submit"> Enviar</button>
+            </fieldset>
+                
+        </form>
+    </section>
+</body>
+</html>
